@@ -4,7 +4,13 @@ import {SiMongodb} from "react-icons/si";
 import {SiExpress } from "react-icons/si";
 import {FaNodeJs} from "react-icons/fa";
 import {BiLogoDjango} from "react-icons/bi";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import chatgptimg from "../assets/icons/chatgpt.png"
+import framermotionimg from "../assets/icons/FramerMotion.png"
+import githubimg from "../assets/icons/github.png"
+import replitimg from "../assets/icons/replit.png"
+import vsimg from "../assets/icons/visualstudio.png"
+import deepseekimg from "../assets/icons/deepseek.png"
 
 const iconVariants = (duration)=>({
     initial: {y: -10},
@@ -100,21 +106,21 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img className="icon-size" src="/public/icons/chatgpt.png" alt="" />
+                <img className="icon-size" src={chatgptimg} alt="" />
             </motion.div>
             <motion.div
             variants={iconVariants(6)}
             initial="initial"
             animate= "animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img className="icon-size" src="/public/icons/FramerMotion.png" alt="" />
+                <img className="icon-size" src={framermotionimg} alt="" />
             </motion.div>
             <motion.div
             variants={iconVariants(3)}
             initial="initial"
             animate= "animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-               <img className="icon-size" src="/public/icons/github.png" alt="" />
+               <img className="icon-size" src={githubimg} alt="" />
             </motion.div>
             
             
@@ -130,21 +136,21 @@ const Technologies = () => {
             initial="initial"
             animate= "animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img className="icon-size" src="/public/icons/napkin_ai.jpeg" alt="" />
+                <img className="icon-size" src={replitimg} alt="" />
             </motion.div>
             <motion.div
             variants={iconVariants(2)}
             initial="initial"
             animate= "animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-               <img className="icon-size" src="/public/icons/visualstudio.png" alt="" />
+               <img className="icon-size" src={vsimg} alt="" />
             </motion.div>
             <motion.div
             variants={iconVariants(2.5)}
             initial="initial"
             animate= "animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img className="icon-size" src="/public/icons/replit.png" alt="" />
+                <img className="icon-size" src={deepseekimg} alt="" />
             </motion.div>
             
             
