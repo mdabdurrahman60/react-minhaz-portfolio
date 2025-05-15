@@ -95,7 +95,7 @@ const Technologies = () => {
         </motion.div>
         </div>
         <br />
-        <div className="flex flex-wrap justify-center  inline-block">
+        {/* <div className="flex flex-wrap justify-center  inline-block">
         <motion.div
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
@@ -156,7 +156,7 @@ const Technologies = () => {
             
            
         </motion.div>
-        </div>
+        </div> */}
     </div>
   )
 }
