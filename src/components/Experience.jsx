@@ -24,7 +24,7 @@ const Experience = () => {
                 Web Development
               </div>
               <div className="lg:text-2xl md:text-[18px] text-[#B1B1A2] font-gray">
-                2 years + self learning Experience
+                3 years + self learning Experience
               </div>
             </div>
           </li>

@@ -1,8 +1,9 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
+import project4 from "../assets/projects/project-4.png";
 import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I’m a passionate CSE student and front-end web developer with 2 years of self-learning experience. Skilled in HTML, CSS, JavaScript, React.js, and Next.js — with backend knowledge in Node.js, Express.js, and MongoDB — I build sleek, responsive, and scalable web experiences.`;
+export const HERO_CONTENT = `I’m a passionate CSE student and front-end web developer with 3 years of self-learning experience. Skilled in HTML, CSS, JavaScript, React.js, and Next.js — with backend knowledge in Node.js, Express.js, and MongoDB — I build sleek, responsive, and scalable web experiences.`;
 
 export const ABOUT_TEXT = `I'm a CSE student with a strong passion for technology and web development. Since 2022, I've been self-learning and building web projects that reflect my love for creating digital experiences.`;
 
@@ -34,16 +35,24 @@ export const PROJECTS = [
     href:"https://coffee-shop-website-lemon.vercel.app/"
   },
   {
-    title: "Furniture Shop Website",
+    title: "NexusAI– AI-Driven SaaS Landing Page",
     image: project2,
     description:
-      "A responsive front-end furniture shop website built with React, featuring smooth navigation using React Router and optimized for mobile devices.",
+      "Developed a high-fidelity, conversion-focused landing page using React.js and Tailwind CSS,smooth  scroll-reveal animations using Framer Motion for a premium UI/UX feel. ",
     technologies: ["HTML", "CSS", "React","JavaScript", "Tailwind CSS"],
-    href: ""
+    href: "https://nexus-ai-e7xo.vercel.app/"
+  },
+  {
+    title: "Portfolio For Graphic Designer",
+    image: project3,
+    description:
+      "Implemented interactive UI with React Hooks, and managed component state using useState and useEffect for a smooth user experience. ",
+    technologies: ["HTML", "CSS", "React","JavaScript", "Tailwind CSS"],
+    href: "https://portfolio-for-graphic-designer.vercel.app/"
   },
   {
     title: "Movie App",
-    image: project3,
+    image: project4,
     description:
       "A dynamic movie app with features like search, liking movies, and adding favorites. Movie data is fetched from an external API for real-time content updates.",
     technologies: ["HTML", "CSS", "React", "JavaScript"],

@@ -2,7 +2,7 @@
     {
       "skillName": "HTML5",
       "logo": "https://i.ibb.co/BjhHDsY/pngegg.png",
-      "percentage": 85
+      "percentage": 100
     },
     {
       "skillName": "CSS3",
@@ -17,32 +17,32 @@
     {
       "skillName": "Tailwind",
       "logo": "https://i.ibb.co/2tNvdnY/pngwing-com.png",
-      "percentage": 75
+      "percentage": 80
     },
     {
       "skillName": "Bootstrap",
       "logo": "https://i.ibb.co/9nrmd92/pngwing-com-1.png",
-      "percentage": 75
+      "percentage": 80
     },
     {
       "skillName": "React",
       "logo": "https://i.ibb.co/QQWDBk4/pngwing-com-2.png",
-      "percentage": 88
+      "percentage": 85
     },
     {
       "skillName": "Node.js",
       "logo": "https://i.ibb.co/2t3hv1y/pngegg-5.png",
-      "percentage": 82
+      "percentage": 80
     },
     {
       "skillName": "Express.js",
       "logo": "https://i.ibb.co/T1LBMGy/kisspng-mean-solution-stack-express-js-node-js-javascript-5b1647bd733da2-082026521528186813472.png",
-      "percentage": 45
+      "percentage": 50
     },
     {
       "skillName": "MongoDB",
       "logo": "https://i.ibb.co/3MSLz8f/pngegg-4.png",
-      "percentage": 30
+      "percentage": 50
     },
     {
       "skillName": "Firebase",
