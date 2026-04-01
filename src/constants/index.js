@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "Implemented interactive UI with React Hooks, and managed component state using useState and useEffect for a smooth user experience. ",
-    technologies: ["HTML", "CSS", "React","JavaScript", "Tailwind CSS"],
+    technologies: ["HTML", "CSS", "React","JavaScript", ],
     href: "https://portfolio-for-graphic-designer.vercel.app/"
   },
   {
